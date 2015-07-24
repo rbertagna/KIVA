@@ -1,7 +1,5 @@
 require_relative "../../config/environment"
-require_relative "../models/donation.rb"
-require_relative "../models/donee.rb"
-require_relative "../models/user.rb"
+require_relative "../models/tweet.rb"
 class ApplicationController < Sinatra::Base
   
   set :views, "app/views"
@@ -21,5 +19,22 @@ get "/" do
     @user.save
     erb :user
   end
-  
+
+get "/" do
+  redirect to ("/donation")
+  end
+get "/donation" do 
+  erb :donatiom
+  end
+post "/donatiom" do
+    @user= User.new(:full_name => params[:full_name], :email => params[:email], :address => params[:address],:credit_card_number => params[:credit_card_number], 
+  :project_name => params[:project_name])
+    @user.save
+    erb :user
+  end
+ 
+
+
+
+
 end
