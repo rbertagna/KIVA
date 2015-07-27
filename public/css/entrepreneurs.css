@@ -1,0 +1,30 @@
+
+body {
+  background-image: url('http://talk.onevietnam.org/wp-content/uploads/2012/03/25645.jpg');
+  background-size: cover;
+}
+
+.row {
+  margin-left: 15%;
+  width: 70%;
+  height: 300px;
+  margin-bottom: 7%;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.button {
+  width: 40%;
+  margin-right: 10%;
+  height: 100%;
+  margin-bottom: 7%;
+  float: left;
+}
+
+body > div:nth-child(1) > div:nth-child(1) {
+  background-image: url(http://i.ytimg.com/vi/cgjIASQqwBI/hqdefault.jpg);
+}
