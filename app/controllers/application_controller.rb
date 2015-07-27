@@ -10,11 +10,8 @@ class ApplicationController < Sinatra::Base
   
   get "/" do
     erb :home
-
- 
-get "/" do
-    redirect to ("/sign_up")
   end
+
   get "/sign_up" do 
     erb :sign_up
   end
