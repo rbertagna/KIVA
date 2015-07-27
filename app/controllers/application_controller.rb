@@ -6,10 +6,12 @@ class ApplicationController < Sinatra::Base
   
   set :views, "app/views"
   set :public, "public"
+
   
   get "/" do
-    
-  end
+    erb :home
+
+ 
 get "/" do
     redirect to ("/sign_up")
   end

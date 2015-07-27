@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+/usr/local/opt/rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150727-3129-1vf7f6t.rb extconf.rb
+=======
 /usr/local/opt/rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150724-6127-1z0ypj8.rb extconf.rb
+>>>>>>> ba2b8438ad818fec6198cc9c8c6a3a21fb13020a
 creating Makefile
 
 make "DESTDIR=" clean
