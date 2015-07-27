@@ -21,6 +21,10 @@ class ApplicationController < Sinatra::Base
     erb :user
   end
 
+  get "/donee" do
+    erb :entrepreneurs
+  end
+
 get "/" do
   redirect to ("/donation")
   end
